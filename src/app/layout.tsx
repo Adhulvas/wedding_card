@@ -41,7 +41,7 @@ const dancingScript = Dancing_Script({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://your-site.netlify.app"),
+  metadataBase: new URL("https://alil-sneha.netlify.app"),
 
   title: "Wedding Invitation | Alilvas & Sneha",
   description: "Join us to celebrate the wedding of Alilvas & Sneha.",
