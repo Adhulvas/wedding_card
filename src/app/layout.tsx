@@ -41,11 +41,28 @@ const dancingScript = Dancing_Script({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://your-site.netlify.app"),
+
   title: "Wedding Invitation | Alilvas & Sneha",
   description: "Join us to celebrate the wedding of Alilvas & Sneha.",
+
   openGraph: {
     title: "Wedding Invitation | Alilvas & Sneha",
     description: "Join us to celebrate the wedding of Alilvas & Sneha.",
+    url: "https://your-site.netlify.app",
+    type: "website",
+    images: [
+      {
+        url: "/assets/preview.png",
+        width: 1200,
+        height: 630,
+        alt: "Wedding Invitation",
+      },
+    ],
+  },
+
+  twitter: {
+    card: "summary_large_image",
     images: ["/assets/preview.png"],
   },
 };
