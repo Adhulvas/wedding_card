@@ -49,7 +49,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Wedding Invitation | Alilvas & Sneha",
     description: "Join us to celebrate the wedding of Alilvas & Sneha.",
-    url: "https://your-site.netlify.app",
+    url: "https://alil-sneha.netlify.app",
     type: "website",
     images: [
       {
